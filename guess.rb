@@ -11,11 +11,11 @@ while tries < 5
     puts 'Congrats, you win the game :)'
     exit
   else
+    tries = tries + 1
     puts 'You are looking for a higher number' if try < number
     puts 'You are looking for a lower number' if try > number
-    tries = tries + 1
     puts "You have tried #{tries}/5 times"
+    puts 'Try again' if tries < 5
   end
-puts 'Try again'
 end
 puts 'You have exceeded the maximum number of tries :('
