@@ -18,4 +18,4 @@ while tries < 5
   end
 puts 'Try again'
 end
-puts 'You have exceded the maximum number of tries :('
+puts 'You have exceeded the maximum number of tries :('
